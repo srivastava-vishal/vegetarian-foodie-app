@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='foodieApp'>
+<html lang="en" ng-app="foodieApp">
 
 <head>
     <meta charset="UTF-8">
@@ -8,23 +8,22 @@
     <title>Foodie</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-	<script src="js/angular.min.js"></script>
-   <script src="https://code.angularjs.org/1.6.5/angular-route.js"></script>
-</head>
-<style>
+    
+    <!-- <script src="js/angular-route.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.5/angular-route.js"></script>
+    <style>
     input.ng-invalid.ng-dirty {
             border: 1px solid red;
         }
 </style>
+</head>
+
 <body id="app">
-
-    <div ng-view>
-
-
-    </div>
+    <div ng-view=""></div>       
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-		<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

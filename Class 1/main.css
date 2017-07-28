@@ -5,9 +5,19 @@
 }
 
 body {
-    background-color: #F3F3E8;
-    font-family: Helvetica, Arial, sans-serif;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv2P8LsiWFO5CdrwBId2yKkxQTTY3DnldyMCy1MTaOR9cqyoMZ');
+    background-color: rgb(243, 243, 243);
+    font-family: ravie;
+    background-size: cover;
 }
+
+.hero p {
+
+    margin-top:20px;
+    font-weight: 100;
+}
+
 
 .hero {
     background-image: url('https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg');
@@ -15,7 +25,7 @@ body {
     min-height: 300px;
     border-radius: 4px;
     color: white;
-    font-size: 36px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +64,8 @@ body {
     padding-top: 0;
     border-radius: 4px;
 }
+
+
 .hero {
     margin-bottom: 2rem;
 }
@@ -128,10 +140,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-}
-.clickable
-{
-  cursor: pointer;
+    margin-top: 20px;
 }
 
 .search-bar form {
@@ -144,6 +153,32 @@ body {
    margin-right: 1rem;
 }
 
+.ui{
+
+    width:100%;
+    padding:0;
+
+}
+
+.zo_logo{
+
+    display:block;
+    height:120px;
+    width:120px;
+}
+
+.red{
+        background: #cb202d;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .bestDish .button {
     display: inline-block;
     background-color:#cb202d;
@@ -151,4 +186,39 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+}
+
+#getIngredients-button{
+
+      /*  position: absolute;
+    margin-left: 172px;
+    margin-top: -27px*/
+}
+
+#getIngredients-button2{
+
+ /*       position: absolute;
+        margin-left: 296px;
+        /*margin-top: -27px;*/*/
+}
+
+.list-buttons{
+
+    list-style: none;
+    margin-left: 73px;
+}
+
+.vegnonveg{
+
+        width: 72px;
+        height: 61px;
+        position: absolute;
+        left: 255px;
+        top: 383px;
+}
+
+.to-do-list{
+    position: absolute;
+        right: -213px;
+        top: 13px;
 }
